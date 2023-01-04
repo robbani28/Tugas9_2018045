@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_baseline_access_alarm_24"
+            android:title="Alarm" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_baseline_fastfood_24"
+            android:title="Food" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="Pesanan" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_perm_identity_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_sql"
+            android:icon="@drawable/ic_baseline_article_24"
+            android:title="SQL Lite" />
+        <item
+            android:id="@+id/nav_meal"
+            android:icon="@drawable/ic_baseline_set_meal_24"
+            android:title="Meal Api" />
+    </group>
+</menu>
